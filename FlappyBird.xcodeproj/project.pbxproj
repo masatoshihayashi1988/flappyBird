@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7349609D24BC74D900F28378 /* Quiz-Buzzer01-1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7349609C24BC74D900F28378 /* Quiz-Buzzer01-1.mp3 */; };
 		7371949E24AD260900CAFEA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371949D24AD260900CAFEA5 /* AppDelegate.swift */; };
 		737194A024AD260900CAFEA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7371949F24AD260900CAFEA5 /* SceneDelegate.swift */; };
-		737194A224AD260900CAFEA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737194A124AD260900CAFEA5 /* ViewController.swift */; };
 		737194A524AD260900CAFEA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737194A324AD260900CAFEA5 /* Main.storyboard */; };
 		737194A724AD260A00CAFEA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 737194A624AD260A00CAFEA5 /* Assets.xcassets */; };
 		737194AA24AD260A00CAFEA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 737194A824AD260A00CAFEA5 /* LaunchScreen.storyboard */; };
+		737194B224AD2A1800CAFEA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737194B124AD2A1800CAFEA5 /* ViewController.swift */; };
+		737194B824AD2BFA00CAFEA5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 737194B724AD2BFA00CAFEA5 /* GameScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7349609C24BC74D900F28378 /* Quiz-Buzzer01-1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Quiz-Buzzer01-1.mp3"; sourceTree = "<group>"; };
 		7371949A24AD260900CAFEA5 /* FlappyBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7371949D24AD260900CAFEA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7371949F24AD260900CAFEA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		737194A124AD260900CAFEA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		737194A424AD260900CAFEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		737194A624AD260A00CAFEA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		737194A924AD260A00CAFEA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		737194AB24AD260A00CAFEA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		737194B124AD2A1800CAFEA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		737194B724AD2BFA00CAFEA5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				7371949D24AD260900CAFEA5 /* AppDelegate.swift */,
 				7371949F24AD260900CAFEA5 /* SceneDelegate.swift */,
-				737194A124AD260900CAFEA5 /* ViewController.swift */,
+				737194B124AD2A1800CAFEA5 /* ViewController.swift */,
+				737194B724AD2BFA00CAFEA5 /* GameScene.swift */,
 				737194A324AD260900CAFEA5 /* Main.storyboard */,
 				737194A624AD260A00CAFEA5 /* Assets.xcassets */,
 				737194A824AD260A00CAFEA5 /* LaunchScreen.storyboard */,
 				737194AB24AD260A00CAFEA5 /* Info.plist */,
+				7349609C24BC74D900F28378 /* Quiz-Buzzer01-1.mp3 */,
 			);
 			path = FlappyBird;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7349609D24BC74D900F28378 /* Quiz-Buzzer01-1.mp3 in Resources */,
 				737194AA24AD260A00CAFEA5 /* LaunchScreen.storyboard in Resources */,
 				737194A724AD260A00CAFEA5 /* Assets.xcassets in Resources */,
 				737194A524AD260900CAFEA5 /* Main.storyboard in Resources */,
@@ -138,8 +145,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				737194A224AD260900CAFEA5 /* ViewController.swift in Sources */,
+				737194B224AD2A1800CAFEA5 /* ViewController.swift in Sources */,
 				7371949E24AD260900CAFEA5 /* AppDelegate.swift in Sources */,
+				737194B824AD2BFA00CAFEA5 /* GameScene.swift in Sources */,
 				737194A024AD260900CAFEA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,12 +293,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33K9F2UWK2;
 				INFOPLIST_FILE = FlappyBird/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hayashi.hayashi.FlappyBird;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hayashi.hayashi.FlappyBird2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,12 +311,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 33K9F2UWK2;
 				INFOPLIST_FILE = FlappyBird/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hayashi.hayashi.FlappyBird;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.hayashi.hayashi.FlappyBird2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
